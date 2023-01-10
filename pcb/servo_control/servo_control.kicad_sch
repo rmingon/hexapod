@@ -3668,7 +3668,7 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "GPIO_21" (shape input) (at 373.38 33.02 180) (fields_autoplaced)
+  (global_label "GPIO_18" (shape input) (at 373.38 33.02 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid c4dd79ae-3403-4189-b657-b7af4688c0de)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 363.105 32.9406 0)
