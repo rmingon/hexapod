@@ -10,13 +10,14 @@ PCB View
 
 #### Info
 In my hexapod project, i will create a specific pcb with ESP32 for online 
-control and an atmega2560 for servos controls.
+control.
 
 All mcu are connected with I2C bus.
 
 TODO
-- [x] Add atmega2560 for control servos
+- [x] Add PCA9685-16 for control servos
 - [x] add esp32 
 - [x] add MCP9250
+- [ ] send pcb to JLCPCB
 - [ ] add lipo 2s charger
 - [ ] change esp32 by a k210 kendryte
