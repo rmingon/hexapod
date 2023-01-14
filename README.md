@@ -1,5 +1,7 @@
 # Hexapod project
 
+## I AM CURRENTLY WAIT PCB
+
 ### My first public project with electronics.
 
 Circuit schema with 18 servos connectors.
@@ -21,6 +23,6 @@ TODO
 - [x] Add PCA9685-16 for control servos
 - [x] add esp32 
 - [x] add MCP9250
-- [ ] send pcb to JLCPCB
+- [x] send pcb to JLCPCB
 - [ ] add lipo 2s charger
 - [ ] change esp32 by a k210 kendryte
