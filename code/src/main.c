@@ -24,8 +24,8 @@ static const char *TAG = "example";
 
 static uint8_t s_led_state = 0;
 
-#define WIFI_SSID "NETGEAR-41"
-#define WIFI_PASS "royalgiant308"
+#define WIFI_SSID "test"
+#define WIFI_PASS "test"
 
 // Event group
 static EventGroupHandle_t wifi_event_group;
