@@ -24,5 +24,5 @@ TODO
 - [x] add esp32 
 - [x] add MCP9250
 - [x] send pcb to JLCPCB
-- [ ] add lipo 2s charger
+- [x] add lipo 2s charger
 - [ ] change esp32 by a k210 kendryte
