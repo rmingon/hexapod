@@ -4,15 +4,14 @@
 #include <Arduino.h>
 
 class Lidar {
-
-    private:
-        bool _active;
-        byte _motor_pin;
-        byte _motor_speed_pin;
-
-    public:
-        Lidar()
-
-}
+	private:
+		bool _active;
+		int _motor_enabled_pin;
+		int _motor_speed_pin;
+	public:
+		Lidar();
+		void init();
+		void rotationSpeed(int);
+};
 
 #endif
