@@ -7,9 +7,11 @@ class Lidar {
 
     private:
         bool _active;
+        byte _motor_pin;
+        byte _motor_speed_pin;
 
     public:
-
+        Lidar()
 
 }
 
