@@ -51,12 +51,10 @@ void setup() {
           Serial.print(", Data: ");
           Serial.write(packet.data(), packet.length());
           Serial.println();
-          //reply to the client
           packet.printf("Got %u bytes of data", packet.length());
       });
       led1.on();
   }
-  led2.on();
 
   servo.init();
 
@@ -78,8 +76,8 @@ void setup() {
 }
 
 void loop() {
+  led2.on();
+  String number = SerialPort.readString();
+  Serial.println(number);
 
-      String number = SerialPort.readString();
-      Serial.println(number);
-    
 }
