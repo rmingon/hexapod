@@ -14,8 +14,4 @@ class Servo {
     void setAll(uint16_t pwm);
 };
 
-void servoInit();
-
-void servoSetAll(uint16_t pwm);
-
 #endif
