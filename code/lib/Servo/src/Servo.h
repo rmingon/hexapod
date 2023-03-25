@@ -12,6 +12,8 @@ class Servo {
     Servo();
     void init();
     void setAll(uint16_t pwm);
+    void walk();
+    void stop();
 };
 
 #endif

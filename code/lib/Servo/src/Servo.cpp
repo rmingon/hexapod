@@ -29,3 +29,11 @@ void Servo::setAll(uint16_t pwm) {
     servo_second.setPWM(i, 0, pwm);
   }
 }
+
+void Servo::walk() {
+
+}
+
+void Servo::stop() {
+  setAll(2048);
+}
