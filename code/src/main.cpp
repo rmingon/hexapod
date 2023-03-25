@@ -7,13 +7,12 @@
 Led led1(32);
 Led led2(33);
 
-Lidar lidar();
+Lidar lidar;
 
 HardwareSerial SerialPort(2);
 
 void setup() {
-  Serial.begin(9600);
-  Serial.println("8 channel Servo test!");
+  Serial.begin(115200);
 
   SerialPort.begin(128000, SERIAL_8N1, 16, 17);
 
@@ -32,6 +31,11 @@ void setup() {
 
   delay(10);
 
+  lidar.start();
+
+  delay(2000);
+  
+  lidar.rotationSpeed(255);
 }
 
 void loop() {
