@@ -1,6 +1,6 @@
 # Hexapod project
 
-## I AM CURRENTLY WAIT PCB
+## FIRST VIDEO DEMO -> [VIDEO](https://youtube.com/shorts/m3bDPPfCCp4?feature=share)
 
 ### My first public project with electronics.
 
