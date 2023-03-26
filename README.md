@@ -1,7 +1,5 @@
 # Hexapod project
 
-## FIRST VIDEO DEMO -> [VIDEO](https://youtube.com/shorts/m3bDPPfCCp4?feature=share)
-
 ### My first public project with electronics.
 
 Circuit schema with 18 servos connectors.
