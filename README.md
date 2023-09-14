@@ -1,15 +1,18 @@
 # Hexapod project
 
-### My first public project with electronics.
+# ON HER LEGS
 
-Circuit schema with 18 servos connectors.
+![ALL_LEGS](on_her_legs.jpg)
+
+
+### Circuit schema with 18 servos connectors.
 ![Schema](https://github.com/rmingon/hexapod/blob/main/schema_view.png?raw=true)
 
-PCB View
-![Schema](https://github.com/rmingon/hexapod/blob/main/pcb_view.png?raw=true)
+### PCB View
+![PCB](https://github.com/rmingon/hexapod/blob/main/pcb_view.png?raw=true)
 
-3D View
-![Schema](https://github.com/rmingon/hexapod/blob/main/3d_view.png?raw=true)
+### 3D View
+![3D](https://github.com/rmingon/hexapod/blob/main/3d_view.png?raw=true)
 
 #### Info
 In my hexapod project, i will create a specific pcb with ESP32 for online 
