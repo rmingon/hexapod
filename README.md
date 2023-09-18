@@ -6,13 +6,13 @@
 
 
 ### Circuit schema with 18 servos connectors.
-![Schema](https://github.com/rmingon/hexapod/blob/main/schema_view.png?raw=true)
+![Schema](schema_view.png)
 
 ### PCB View
-![PCB](https://github.com/rmingon/hexapod/blob/main/pcb_view.png?raw=true)
+![PCB](pcb_view.png)
 
 ### 3D View
-![3D](https://github.com/rmingon/hexapod/blob/main/3d_view.png?raw=true)
+![3D](3d_view.png)
 
 #### Info
 In my hexapod project, i will create a specific pcb with ESP32 for online 
